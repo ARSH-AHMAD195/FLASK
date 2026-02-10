@@ -1,3 +1,4 @@
+# Scenario 01
 # Create a program that accepts username and password from input and prints a login confirmation message.
 def login(username, password):
     allowed_users = {"bob":"bo12"}
@@ -14,6 +15,7 @@ uname = input("Enter username: ")
 pword = input("Enter password: ")
 login(uname, pword)
 
+# Scenario 02
 # Build a CLI-based feedback collector that takes user feedback and ratiing and print a thank-you message.
 def feedback_collector():
     feedback = ""
