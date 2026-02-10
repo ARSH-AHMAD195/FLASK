@@ -23,6 +23,7 @@ for user in users:
     else:
         print(f"USER: {user} | ADMIN_ACCESS: denied")
 
+# Scenario 03
 # Create a dictionary to store user profile data (name, email, role) and printit in areadeable format.
 users_profiles = {}
 while True:
@@ -38,6 +39,7 @@ os.system("cls")
 for user in users_profiles:
     print(f"NAME: {user}\nROLE: {users_profiles[user].get("role", "NA")}\nEMAIL: {users_profiles[user].get("email", "NA")}\n")
 
+# Scenario 04
 # An API returns details as a dictionary. Extract and display only the student name and marks.
 def demo_api():
     name = input("Enter name: ")
